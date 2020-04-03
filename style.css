@@ -1,0 +1,496 @@
+/* onlinelogomaker.com/logomaker/?project=66575236 */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* .see-which{
+    display: block;
+} */
+
+/*----------ssssssssss-------------- Nav Start ---------sssssssss--------*/
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1.5px solid #d7d7d7;
+    z-index: 5;
+}
+
+#logo{
+    height: 60px;
+}
+
+#social{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+    /* height: 60px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#social a{
+    text-align: center;
+    width: 54.4px;
+    height: 54.4px;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    /* color: #1015b3; */
+    /* color: #404040; */
+    /* color: #333333; */
+    /* color: #22aff5; */
+    color: #1191d1;
+    border-radius: 50%;
+}
+
+#social a:hover{
+    background-color: #f2f2f2;
+    /* background-color: #eaeaea; */
+}
+
+/*--------eeeeeeeeee---------------- Nav end ------eeeeeeee-----------*/
+
+
+/*----------ssssssssss-------------- Footer Start ---------sssssssss--------*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    /* background-color: red; */
+    z-index: 3;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ /*--------eeeeeeeeee----------------footer end end ------eeeeeeee-----------*/
+ 
+
+
+
+
+
+
+/*----------ssssssssss-------------- Aside Start ---------sssssssss--------*/
+
+aside{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    font-size: 25px;
+    border-right: 1.5px solid #d7d7d7;
+    color: #333333;
+    /* color: black; */
+    z-index: 1;
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+aside span{
+   display: none;
+}
+
+aside:hover{
+    box-shadow: 1px 0 2px 2px #f2f2f2;
+    padding-right: 7px;
+    width: 205px;
+    text-align: left;
+    /* z-index: 4; */
+}
+
+aside:hover span{
+    display: inline;
+}
+
+aside div{
+    padding: 10px 0;
+}
+
+aside:hover div{
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+aside div:hover{
+    /* background-color: #f2f2f2; */
+    background-color: #eaeaea;
+    border-radius: 0 21.94px 21.94px 0;
+    cursor: pointer;
+    /* cursor: pointer; */
+}
+
+/*--------eeeeeeeeee---------------- Aside end ------eeeeeeee-----------*/
+
+
+
+/*----------ssssssssss-------------- General-main Start ---------sssssssss--------*/
+
+main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 70px 0 40px 50px;
+    /* padding-left: 50px;
+    padding-top: 70px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: none;
+}
+
+/* main::-webkit-scrollbar {
+   display: none;;
+  } */
+
+/*--------eeeeeeeeee---------------- General-main end ------eeeeeeee-----------*/
+
+
+
+
+/*----------ssssssssss-------------- Main-add  start---------sssssssss--------*/
+
+
+.main-add > div{
+    width: 75%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-add h1{
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 24px;
+    color: white;
+    background-color: #333333;
+    /* background-color: black; */
+    font-weight: normal;
+    display: none;
+}
+
+
+.main-add #tit{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 28px;
+    background-image: url(imgs/tag.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 20px 20px;
+    margin: 0px;
+    border: 1px solid #c2c2c2;
+    border-top: 0;
+    /* color: #333333; */
+}
+
+.main-add #tit:focus{
+    /* background-color: #f5f5f5; */
+    outline: none;
+}
+
+.main-add #desc{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    resize: vertical;
+    margin: 0px;
+    border: 1px solid #c2c2c2;
+    border-top: 0;
+    /* border-bottom: 1px solid #c2c2c2; */
+}
+
+.main-add #desc:focus{
+    /* background-color: #f5f5f5; */
+    outline: none;
+}
+
+
+.main-add .button{
+    display: inline-block;
+    margin-left: auto;
+    font-size: 18px;
+    padding: 8px 12px;
+    background-color: #1372ba;
+    /* border: 10px solid #1372ba; */
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    display: none;
+}
+
+.main-add .button:hover{
+    background-color: #1c659c;
+    cursor: pointer;
+    /* background-color: white;
+    color: #1372ba; */
+}
+
+/*--------eeeeeeeeee---------------- Main-add end ------eeeeeeee-----------*/
+
+
+
+
+
+
+/*------ssssssssss--------------- For every start --------sssssss----------*/
+
+.for-every{
+    display: block;
+}
+
+.for-every .nothing{
+    display: none;
+    /* font-family: 'Source Code Pro', monospace;; */
+    font-size: 28px;
+    text-align: center;
+    color: #333333;
+    border-bottom: 1.5px solid #e7e7e7;
+    padding: 3px 0;
+}
+
+.for-every h1{
+    display: none;
+}
+
+.for-every h1{
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+    border-bottom: 1.5px solid #d7d7d7;
+}
+
+.for-every .content > div{
+    /* background-color: #f9f9f9; */
+    border-bottom: 1.5px solid #e7e7e7;
+}
+
+.for-every .content > div:hover{
+    background-color: #f9f9f9;
+    border: 1.5px solid #e7e7e7;;
+    /* box-shadow: 0 0 2px 1px #e7e7e7; */
+}
+
+.for-every .content > div .symbols{
+    white-space: nowrap;
+    /* font-size: 0; */
+    /* word-spacing: 0; */
+}
+
+.for-every .content > div{
+    /* height: 40px; */
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.for-every .content .text{
+    /* color: #333333; */
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow:ellipsis;
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+}
+
+.for-every .content .symbols{
+    display: none;
+}
+
+.for-every .content > div:hover .symbols{
+    display: block;
+}
+
+.for-every .content .symbols div{
+    display: inline-block;
+    padding: 8px 10px;
+    /* background-color: green; */
+    color: white;
+    border-radius: 2px;
+    margin: 0;
+}
+
+/* .for-every .content > div:hover .symbols div{
+    display: inline-block;
+} */
+
+.for-every .content .symbols i{
+    display: inline-block;
+    font-size: 20px;
+    /* height: 50px; */
+}
+
+.for-every .symbols div{
+    cursor: pointer;
+}
+
+.for-every .content .symbols .s-tr, main.viewer .view-symbols .ex-symbols .s-tr{
+    border: 1px solid #de3012;
+    background-color: #de3012;
+}
+
+.for-every .content .symbols .s-tr:hover, main.viewer .view-symbols .ex-symbols .s-tr:hover{
+   background-color: white;
+   color: #de3012;;
+}
+
+.for-every .content .symbols .s-ar, main.viewer .view-symbols .ex-symbols .s-ar{
+    border: 1px solid #1191d1;
+    background-color: #1191d1;
+}
+
+.for-every .content .symbols .s-ar:hover, main.viewer .view-symbols .ex-symbols .s-ar:hover{
+    background-color: white;
+    color: #1191d1;
+}
+
+.for-every .content .symbols .s-un, main.viewer .view-symbols .ex-symbols .s-un{
+    border: 1px solid #0d9125;
+    background-color: #0d9125;
+}
+
+.for-every .content .symbols .s-un:hover, main.viewer .view-symbols .ex-symbols .s-un:hover{
+    background-color: white;
+    color: #0d9125;
+}
+
+/* .animate{
+    position: absolute;
+    left: 100%;
+    transition: left 5s;
+} */
+
+/*------eeeeeeeeee--------------- For every end  --------eeeeeeee----------*/
+
+
+
+
+
+/*---------sssss--------------- Viewer start -------------ssssssss----------*/
+
+
+main.viewer .view-symbols{
+    width: 100%;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 60px; */
+    font-size: 22px;
+    border-bottom: 1.5px solid #e7e7e7;
+}
+
+main.viewer .view-symbols > div > div{
+    display: inline-block;
+    padding: 8px 10px;
+    /* background-color: blue; */
+}
+
+main.viewer .view-symbols .ex-symbols div{
+    color: white;
+    cursor: pointer;
+}
+
+/* In for every */
+
+main.viewer .view-symbols .ex-symbols .s-ed{
+    background-color: #555555;
+    border: 1px solid #555555;
+}
+
+main.viewer .view-symbols .ex-symbols .s-ed:hover{
+    background-color: white;
+    color: #555555;
+}
+
+main.viewer .view-symbols .common div{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main.viewer .view-symbols .common div:hover{
+    background-color: #f2f2f2;
+}
+
+main.viewer h1{
+    margin: 0;
+    padding: 5px 30px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+    border-bottom: 1.5px solid #d7d7d7;
+}
+
+main.viewer h1 span{
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #e5e5e5;
+    padding: 2px 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+main.viewer .act-content{
+    padding: 30px;
+    text-align: justify;
+    text-justify: auto;
+    font-size: 18px;
+}
+
+/*---------eeee--------------- Viewer end  ---------------eeeeeeee----------*/
+
+
+
+@media screen and (max-width: 850px) {
+    .main-add > div{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main-add > div{
+        width: 98%;
+        margin-left: 0;
+    }
+}

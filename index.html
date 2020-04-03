@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/208182354f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <nav>
+        <div id="logo-div"><img src="logo (1).png" alt="" id="logo"></div>
+        <ul id="social">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <div id="add-new" class="side-icons"><i class="fas fa-plus"></i><span>  New notes</span></div>
+        <div id="view-all" class="side-icons"><i class="fas fa-clipboard-list"></i><span>  All notes</span></div>
+        <div id="view-current" class="side-icons"><i class="fas fa-calendar-check"></i><span>  Current</span></div>
+        <div id="view-archived" class="side-icons"><i class="fas fa-calendar-times"></span></i><span>  Archived</div>
+        <div id="view-trash" class="side-icons"><i class="fas fa-trash"></i><span>  Trash</span></div>
+    </aside>
+    
+    <main class="main-add">
+        <div>
+            <h1 class="new">Add new</h1>
+            <h1 class="edit">Edit</h1>
+            <div id="inputs-div">
+                <form>
+                    <input type="text" id="tit" placeholder="Add a Title">
+                    <textarea id="desc" cols="30" rows="10" placeholder="Description goes here....."></textarea>
+                </form>
+                <div class="button add-comp">Add Note</div>
+                <div class="button save-changes">Save changes</div>
+            </div>
+        </div>
+    </main>
+
+    <main class="for-every">
+        <div class="top-desc">
+            <h1><i class="fas fa-clipboard-list"></i>  All notes</h1>
+            <h1><i class="fas fa-calendar-check"></i>  Current notes</h1>
+            <h1><i class="fas fa-calendar-times"></i>  Archived notes</h1>
+            <h1><i class="fas fa-trash"></i>  Deleted notes</h1>
+        </div>
+        <div class="nothing">Nothing here!!!</div>
+       <div class="content">
+           <!-- <div class="c12">
+               <div class="text">ajbdjb Lorem ipsum dolor sit.</div>
+                <div class="symbols">
+                    <div class="s-un"><i class="fas fa-calendar-check"></i></div>
+                    <div class="s-ar"><i class="fas fa-calendar-times"></i></div>
+                    <div class="s-tr"><i class="fas fa-trash"></i></div>
+                </div>
+            </div>-->
+       </div>
+    </main>
+
+    <main class="viewer">
+        <div>
+
+            <div class="title-bar">
+                <div class="view-symbols">
+                    <div class="common">
+                        <div class="s-back"><i class="fas fa-arrow-left"></i></div>
+                    </div>
+                    <div class="ex-symbols">
+                        <!-- <div class="s-ed"><i class="fas fa-pen"></i></div>
+                        <div class="s-un"><i class="fas fa-calendar-check"></i></div>
+                        <div class="s-ar"><i class="fas fa-calendar-times"></i></div>
+                        <div class="s-tr"><i class="fas fa-trash"></i></div> -->
+                    </div>
+                </div>
+                <div class="view-title">
+                   <h1>This is my title.<span>Current</span></h1>
+                </div>
+            </div>
+
+            <div class="act-content">
+                <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, iure ipsa at obcaecati fugit, officia repellat praesentium est eius ratione animi odit qui delectus? Ipsa porro ducimus impedit, voluptate cupiditate officiis hic? Obcaecati commodi vitae veritatis, cupiditate nihil quae qui earum, fugit ea sapiente quibusdam. Iste, impedit unde sit ullam magnam magni quaerat nobis provident reprehenderit asperiores debitis dolorem quos! -->
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <div>Copyright &copy; 2020 | Notes Pvt. Ltd.</div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
